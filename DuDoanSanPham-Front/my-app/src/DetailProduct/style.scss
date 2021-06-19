@@ -1,0 +1,33 @@
+.detail {
+
+  &__content {
+    width: 100%;
+    display:flex;
+    font-size:14px;
+  margin: 0 5px;
+
+    &--body {
+    }
+    &--img {
+      background-size: contain;
+      width: 300px;
+      height:auto;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    &--name {
+      h2 {
+        margin: 0;
+      }
+      font-size: 24px;
+    }
+    &--price {
+      display: flex;
+      justify-content: space-between;
+      
+    }
+    &--des {
+      
+    }
+  }
+}
